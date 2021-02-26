@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MegaBoost.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="LMB Clicker" HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
+        </Frame>
+        <Editor Text="CPS" x:Name="CPSLMBEditor" />
+        <Editor Text="Key" x:Name="KeyLMBEditor" />
+        <Button Text="Update" Clicked="Button_Clicked_1" />
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MegaBoost.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="12" CornerRadius="0">
+                <Label Text="Menu Selector" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+            </Frame>
+            <Label Text="Clicker by Neki_play" HorizontalTextAlignment="Center" TextColor="Aqua" FontSize="12"/>
+            <Editor Text="IP" FontSize="12" TextChanged="Editor_TextChanged"/>
+            <Button Text="LMB Clicker" Clicked="Button_Clicked" HeightRequest="35" FontSize="12"/>
+            <Button Text="RMB Clicker" Clicked="Button_Clicked_1" HeightRequest="35" FontSize="12"/>
+            <Button Text="Hide" Clicked="Button_Clicked_2" HeightRequest="35" FontSize="12"/>
+            <Button Text="Close" Clicked="Button_Clicked_3" HeightRequest="35" FontSize="12"/>
+            <Button Text="Clear all traces" Clicked="Button_Clicked_4" HeightRequest="35" FontSize="12"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
